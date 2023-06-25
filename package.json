@@ -11,6 +11,16 @@
     "cicd",
     "express"
   ],
+
+  "author": "Eduardo da Silva Rocha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EddieUFSM/mjest.git"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "clean": "rm -Rf ./dist",
@@ -20,15 +30,31 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "testRunner": "jasmine2"
+    "testRunner": "jasmine2",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/config/",
+      "/src/middlewares/",
+      "/src/models/",
+      "/src/routes/",
+      "/src/services/",
+      "/src/utils/",
+      "/src/index.js"
+    ]
   },
-  "author": "Eduardo Rocha",
-  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "Eduardo da Silva Rocha",
+      "email": "eddie.maneki@gmail.com",
+      "company": "Uonni"
+    }
+  ],
   "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/eslint-parser": "^7.16.5",
+    "@babel/preset-env": "^7.22.5",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^25.1.0",
+    "babel-jest": "^25.5.1",
     "cross-env": "^7.0.2",
     "eslint": "^8.8.0",
     "eslint-config-standard": "^14.1.0",
@@ -43,7 +69,24 @@
     "supertest": "^4.0.2"
   },
   "dependencies": {
-    "chalk": "^5.2.0",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-decorators": "^7.16.7",
+    "@babel/plugin-proposal-export-default-from": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.0",
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "mongoose": "^7.3.1",
+    "rand-token": "^1.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^0.0.1",
+    "chalk": "^4.1.2",
     "commander": "^11.0.0"
   }
 }

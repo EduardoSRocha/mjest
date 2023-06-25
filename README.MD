@@ -3,13 +3,14 @@
 </p>
 
 <p align="center">
+ Mjest is a powerful CLI tool that simplifies the structuring and scaffolding of RESTful microservice projects in JavaScript. 
+</p>
+
+<p align="center">
   <img alt="Static Badge" src="https://badge.fury.io/js/mongoose-express-sanitizer.svg">
   <img alt="Static Badge" src="https://img.shields.io/badge/licence-MIT-green">
 </p>
 
-<p align="center">
- Mjest is a powerful CLI tool that simplifies the structuring and scaffolding of RESTful microservice projects in JavaScript. 
-</p>
 
 <h1 align="center">
   Mjest

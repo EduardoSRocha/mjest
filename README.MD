@@ -1,5 +1,6 @@
-
-![Mjest](https://github.com/EddieUFSM/mjest/blob/main/public/logo.png "Mjest")
+<p align="center">
+  <img src="https://github.com/EddieUFSM/mjest/blob/main/public/logo.png" />
+</p>
 
 # Mjest
 Mjest is a powerful CLI tool that simplifies the structuring and scaffolding of RESTful microservice projects in JavaScript.

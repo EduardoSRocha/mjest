@@ -1,5 +1,7 @@
-# Mjest
+
 ![Mjest](https://github.com/EddieUFSM/mjest/blob/main/public/logo.png "Mjest")
+
+# Mjest
 Mjest is a powerful CLI tool that simplifies the structuring and scaffolding of RESTful microservice projects in JavaScript.
 
 ## Features

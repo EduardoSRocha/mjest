@@ -11,8 +11,9 @@
  Mjest is a powerful CLI tool that simplifies the structuring and scaffolding of RESTful microservice projects in JavaScript. 
 </p>
 
-# Mjest
-
+<h1 align="center">
+  Mjest
+</h1>
 ## Features
 
 - Effortlessly set up well-organized microservice architectures

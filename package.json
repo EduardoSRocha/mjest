@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Effortlessly structure REST microservices in JS. Simplify project setup, endpoint configuration, and middleware handling with Mjest CLI.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "mjest",
     "js",
@@ -14,9 +11,39 @@
     "cicd",
     "express"
   ],
+  "scripts": {
+    "test": "jest",
+    "clean": "rm -Rf ./dist",
+    "build": "npm run clean; babel ./src --out-dir ./dist --copy-files",
+    "coverage": "npm test -- --coverage",
+    "lint": "eslint src"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testRunner": "jasmine2"
+  },
   "author": "Eduardo Rocha",
   "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/eslint-parser": "^7.16.5",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.1.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^8.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^26.0.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "git-commit-msg-linter": "^4.1.2",
+    "jest-cli": "^27.4.7",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  },
   "dependencies": {
+    "chalk": "^5.2.0",
     "commander": "^11.0.0"
   }
 }

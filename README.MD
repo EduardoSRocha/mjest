@@ -29,7 +29,7 @@
 <li> Unit Testing Foundation: Mjest encourages best development practices, including unit testing to ensure code quality. With built-in support for unit testing, you can write and execute automated tests to validate the correct functioning of your endpoints and business logic.</li>
 <li> Automatic Documentation: Documentation is essential for facilitating the usage and understanding of an API. With Mjest, you can automatically generate clear and concise documentation for your RESTful API, enabling other developers to quickly understand how to consume your endpoints and what parameters to expect.</li>
 <li> Continuous Integration and Deployment (CICD) to AWS Kubernetes with EKS: Mjest simplifies the setup of CICD for Kubernetes, allowing for continuous deployment of your microservice to AWS using Amazon EKS. With just a few commands, you can easily configure automated deployment pipelines, ensuring continuous delivery of your application.</li>
-<ul/>
+</ul>
 
 <p align="justify">
 In summary, Mjest is a comprehensive tool for JavaScript developers who want to quickly and efficiently create and structure RESTful API microservice projects. With built-in support for MongoDB, Mongoose, Express, unit testing, documentation, and CICD to AWS Kubernetes with EKS, Mjest streamlines the entire development lifecycle, allowing you to focus on building powerful and scalable APIs.

@@ -21,7 +21,7 @@
   Mjest is a powerful and intuitive command-line interface (CLI) tool designed to simplify and structure the development of JavaScript-based RESTful API applications. With Mjest, you can easily create a microservice project using popular technologies such as MongoDB, Mongoose, and Express, while benefiting from additional features for unit testing, documentation, and continuous integration and deployment (CICD) to AWS Kubernetes with EKS.
 </p>
 
-Key Features:
+<h3> Key Features </h3>
 - Quick Initialization and Structuring: Mjest enables you to quickly start a new microservice project by automatically setting up the essential folder and file structure needed for RESTful API development. This saves time and effort by providing a solid foundation for your project.
 - MongoDB and Mongoose Integration: With Mjest, you can seamlessly integrate MongoDB into your project, utilizing the popular MongoDB object modeling library, Mongoose. Mjest automatically configures the necessary connections, schemas, and models, making it easy to interact with the database.
 - Express Framework: Mjest utilizes Express.js, one of the most popular frameworks for building web applications in Node.js. With Express, you can easily create routes, handle middleware, and manage HTTP requests and responses efficiently.

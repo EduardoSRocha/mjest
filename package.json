@@ -1,0 +1,22 @@
+{
+  "name": "mjest",
+  "version": "1.0.0",
+  "description": "Effortlessly structure REST microservices in JS. Simplify project setup, endpoint configuration, and middleware handling with Mjest CLI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mjest",
+    "js",
+    "microsservice",
+    "kubernetes",
+    "cicd",
+    "express"
+  ],
+  "author": "Eduardo Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}

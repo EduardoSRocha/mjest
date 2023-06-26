@@ -1,5 +1,11 @@
- :warning: **This package is under development!** :construction:  
- The release is scheduled for August 16th.
+
+<div style="background-color: #fff3cd; padding: 10px; border: 1px solid #ffeeba;">
+    <p style="margin: 0; font-weight: bold;">
+        <span style="color: #856404;">&#9888;</span> <span>This package is under development! </span>
+        <span style="color: #856404;">&#128679;</span>
+    </p>
+    <p style="margin: 0;">The release is scheduled for August 16th.</p>
+</div>
 
 <p align="center">
   <img src="https://github.com/EddieUFSM/mjest/blob/main/public/logo.png" />

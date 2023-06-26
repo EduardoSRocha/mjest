@@ -1,3 +1,6 @@
+ :warning: **This package is under development!** :construction:  
+ The release is scheduled for August 16th.
+
 <p align="center">
   <img src="https://github.com/EddieUFSM/mjest/blob/main/public/logo.png" />
 </p>

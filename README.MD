@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <img alt="Static Badge" src="https://badge.fury.io/js/mongoose-express-sanitizer.svg">
   <img alt="Static Badge" src="https://img.shields.io/badge/licence-MIT-green">
   <a href="https://www.patreon.com/mjest"><img alt="Static Badge" src="https://img.shields.io/badge/patreon-donate-green"></a>
 </p>

@@ -11,7 +11,6 @@
     "cicd",
     "express"
   ],
-
   "author": "Eduardo da Silva Rocha",
   "license": "MIT",
   "repository": {
@@ -78,6 +77,8 @@
     "@babel/runtime": "^7.9.0",
     "axios": "^0.25.0",
     "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "express": "^4.17.1",
@@ -85,8 +86,6 @@
     "mongoose": "^7.3.1",
     "rand-token": "^1.0.1",
     "request": "^2.88.2",
-    "request-promise": "^0.0.1",
-    "chalk": "^4.1.2",
-    "commander": "^11.0.0"
+    "request-promise": "^0.0.1"
   }
 }
